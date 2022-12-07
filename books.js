@@ -11,8 +11,8 @@ var jsonParser = bodyParser.json();
 //----for urlencode
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
-const uri =
-  "mongodb+srv://faisalnksaif:yourClassDay1@cluster0.iaoqh.mongodb.net/classday?retryWrites=true&w=majority";
+const uri ="enter youd db link"
+ 
 MongoClient.connect(uri, function (err, client) {
   if (err) throw error;
   console.log("Connected to mongo");
