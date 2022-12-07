@@ -122,7 +122,7 @@ app.listen(8080, function () {
 });
 
 // // Connection URI
-// const uri ="mongodb+srv://faisalnksaif:yourClassDay1@cluster0.iaoqh.mongodb.net/classday?retryWrites=true&w=majority"
+
 // MongoClient.connect(uri,function(err,client){
 //     if(err) throw error;
 //     console.log("Connected to mongo");
